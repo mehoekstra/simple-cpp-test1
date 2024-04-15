@@ -6,6 +6,7 @@
         {
           "label": "Make project",
           "command": "make",
+          "problemMatcher": "$gcc",
           "group": {
             "kind": "build",
             "isDefault": true
@@ -17,6 +18,7 @@
         {
           "label": "Make clean",
           "command": "make",
+          "problemMatcher": "$gcc",
           "args": [
             "clean"
           ]
